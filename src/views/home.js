@@ -42,18 +42,14 @@ const Home = (props) => {
                   SPECIAL
                 </a>
               </div>
-              <img
-                src="ed9a4a9b-a320-437f-9b2f-90b39d6225ea"
-                alt="image"
-                className="home-image1"
-              />
+      
               <Link to="/" className="home-logo-center navbar-logo-title">
                 MUSE
               </Link>
               <div className="home-right">
                 <span className="navbar-link">ABOUT</span>
                 <a
-                  href="http://muse-pe.s3-website.ca-central-1.amazonaws.com/"
+                  href="http://teleport-muse.s3-website.ca-central-1.amazonaws.com"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-text04 navbar-link"
