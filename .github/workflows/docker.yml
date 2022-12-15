@@ -17,7 +17,7 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: docker build
       run: |
-        docker build . -t docker-muse-i
+        docker build . -t anisahmw/docker-muse-i
     - name: docker push
       run: |
-        docker push docker-muse-i
+        docker push anisahmw/docker-muse-i
