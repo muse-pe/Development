@@ -21,3 +21,6 @@ jobs:
     - name: docker push
       run: |
         docker push anisahmw/docker-muse-i
+    - name: run app
+      run: |
+        docker-compose up
